@@ -1,7 +1,7 @@
-body main p{
+body main #About{
     text-align: center;
-    
-
+    background-color: rgb(174, 55, 55);
+    align-content: center;
 }
 body{
     background-color: #333333;
@@ -14,21 +14,26 @@ nav ul {
     margin: 0;
     margin-right: 50px;
     border: 50px;
-    background-color: blanchedalmond;
+    background-color: rgb(107, 86, 56);
     display: flex;
 }
 
 ul li a {
-  display: flex;
+  display: block;
   color: black;
   
-  padding: 15px 40px;
-  border: 0;
-  margin-left: 0;
+  padding: 20px 40px;
+
   text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: blueviolet;
+    background-color: rgb(131, 109, 151);
     
+}
+
+
+
+main .image {
+    background-color: azure;
 }
