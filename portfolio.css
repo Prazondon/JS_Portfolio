@@ -1,0 +1,163 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f2f0f7;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+/* COLORS
+   Primary: #6a0dad
+   Accent: #8c78d0
+   Dark: #2a2a2a
+   Light: #f2f0f7
+*/
+
+/* NAVBAR */
+nav {
+    background: #45a045dd;
+}
+
+.hamburger {
+    display: none;
+    font-size: 32px;
+    padding: 12px;
+    cursor: pointer;
+    color: white;
+    background: #6a0dad;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 12px 25px;
+    color: rgb(252, 243, 243);
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    background: #311a79;
+    border-radius: 10px;
+}
+
+/* HOME SECTION */
+.home-section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+/* IMAGE PLACEHOLDER */
+.profile-image {
+    width: 300px;
+    height: 300px;
+    background: #d8d2ee;
+    border-radius: 50%;
+    border: 5px solid #6a0dad;
+    background-size: cover;
+}
+.profile-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+/* TYPOGRAPHY */
+.home-text h1 span {
+    color: #6a0dad;
+}
+
+/* TYPING TEXT */
+.typing-text {
+    font-size: 20px;
+    color: #2a2a2a;
+    min-height: 30px;
+}
+
+/* CV BUTTON */
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.cv-button:hover {
+    background: #8c78d0;
+}
+
+/* PROJECTS */
+.projects-section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* SOCIAL ICONS */
+.social-icons a {
+    margin: 10px;
+    font-size: 28px;
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #8c78d0;
+}
+
+/* FOOTER */
+footer {
+    background: #6a0dad;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 700px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #6a0dad;
+        text-align: center;
+    }
+
+    .menu li a {
+        padding: 20px;
+    }
+}
