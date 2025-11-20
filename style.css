@@ -18,7 +18,7 @@ h1, h2 {
 
 /* NAVBAR */
 nav {
-    background: #45a045dd;
+    background: #62627ed1;
 }
 
 .hamburger {
@@ -78,6 +78,12 @@ nav {
     height: 300px;
     border-radius: 50%;
     background-size: cover;
+    transition: transform 0.5 ease-in-out;
+    cursor: pointer;
+}
+
+.profile-image img:hover{
+    transform: scale(1.1);
 }
 
 /* TYPOGRAPHY */
@@ -113,6 +119,27 @@ nav {
 .projects-section {
     padding: 50px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.project-container {
+    background-color: #b2b2bb;
+    padding: 40px;
+    width: 800px;  
+    border: 2px solid black;
+    border-radius: 12px;  
+    /* box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.project-container:hover{
+    background-color: lightsteelblue;
+    transform: scale(1.1);
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
+    
 }
 
 /* CONTACT */
